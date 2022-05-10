@@ -1,0 +1,9 @@
+h1 {text-align: center}
+h3 {color: #4B4B4B}
+table {width: 100%}
+table.data {width: 100%; border-collapse: collapse;
+		 border: 2px solid black}
+td.data {border:1px solid black}
+
+img {width: 140px; height: 140px; align: right}
+
