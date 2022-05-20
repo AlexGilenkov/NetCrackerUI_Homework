@@ -1,0 +1,50 @@
+h1 {
+    text-align: center; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    text-align: center
+}
+table.header {
+    width: 100%; 
+    margin: auto; 
+}
+table.results {
+    border-collapse: collapse; 
+    width: 70%; 
+    margin: auto; 
+    border: 1px black solid;
+}
+p.inputString {
+    font-weight: bold;
+}
+input {
+    width: 20%; 
+    height: 20px; 
+    background-color:rgb(216, 246, 250);
+}
+input.submit {
+    width: 70%; 
+    height: 50px; 
+    background-color:rgb(74, 255, 74); 
+    font-size: 16px; 
+    font-style: italic; 
+    font-weight: bold;
+}
+th { 
+    border:1px black solid; 
+}
+td.results { 
+    border:1px black solid;
+}
+tr.black {
+    background-color: rgb(148, 85, 134); 
+    color: white;
+}
+tr.white { 
+    background-color: rgb(252, 252, 69);
+}
+img {
+    width: 50%; 
+    height: 50%;
+}
