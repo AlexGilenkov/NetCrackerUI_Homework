@@ -168,48 +168,7 @@ export class BinaryTree<T> implements IBinaryTree<T>{
         }
     }
 
-    /* printSubtree(node: MyNode<T> | null): void {
-        if(node === null) return;
-        if (node.leftNode !== null) {
-            this.printTrees(node.leftNode, false, "");
-        }
-        this.printNodeValue(node);
-        
-        if (node.rightNode !== null) {
-            this.printTrees(node.rightNode, true, "");
-        } 
-        
-    }
-
-    private printNodeValue(node: MyNode<T> | null): void {
-        if(node === null) return;
-        if (node.data == null) {
-            console.log("<null>");
-        } else {
-            console.log(node.data.toString());
-        }
-        //console.log();
-    }
-
-    private printTrees(node: MyNode<T>, isRight: boolean, indent: string): void {
-       
-        //console.log(indent);
-        //if (isRight) {
-        //    console.log(" \\");
-        //} else {
-        //    console.log(" /");
-        //}
-        //console.log("----- ");
-       
-        if (node.leftNode !== null) {
-            this.printTrees(node.leftNode, false, indent + (isRight ? " |      " : "        "));
-        }
-        this.printNodeValue(node);
-        if (node.rightNode !== null) {
-            this.printTrees(node.rightNode, true, indent + (isRight ? "        " : " |      "));
-        }
-    }
- */
+   
     contains(node: MyNode<T>): boolean {
         let tempNode: MyNode<T> | null = this.findByKey(node.key);
         return tempNode !== null && tempNode.data === node.data; 
